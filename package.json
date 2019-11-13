@@ -1,0 +1,20 @@
+{
+  "name": "typescript-incremental-compile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "mocha": "^6.2.2",
+    "source-map-support": "^0.5.13",
+    "typescript": "^3.6.4"
+  },
+  "scripts": {
+    "compile": "gulp scripts",
+    "watch": "gulp watch"
+  },
+  "author": "Prabhay Gupta",
+  "license": "MIT"
+}
